@@ -5,6 +5,7 @@ import ComponenteComUmaProp from "@/components/ComponenteComUmaProp";
 import ComponenteComVariasProps from "@/components/ComponenteComVariasProps";
 import ComponenteComCondicional from "@/components/ComponenteComCondicional";
 import ComponenteComMap from "@/components/ComponenteComMap";
+import ComponenteComEventos from "@/components/ComponenteComEventos";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ justify-center"
       />
       <ComponenteComCondicional />
       <ComponenteComMap />
+      <ComponenteComEventos />
     </div>
   );
 }
