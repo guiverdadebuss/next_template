@@ -7,6 +7,7 @@ import ComponenteComCondicional from "@/components/ComponenteComCondicional";
 import ComponenteComMap from "@/components/ComponenteComMap";
 import ComponenteComEventos from "@/components/ComponenteComEventos";
 import ComponenteComState from "@/components/ComponenteComState";
+import ComponenteComUseEffect from "@/components/ComponenteComUseEffect";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       className="min-h-screen bg-slate-400 flex flex-col items-center
 justify-center"
     >
-      <h1 className="text-6xl font-bold text-white">Hello! </h1>{" "}
+      <h1 className="text-6xl font-bold text-white">NEXT REVISÃO</h1>{" "}
       <PrimeiroComponente />
       <ComponenteComUmaProp nome="Guilherme" />
       <ComponenteComUmaProp nome="Arabella" />
@@ -28,6 +29,7 @@ justify-center"
       <ComponenteComMap />
       <ComponenteComEventos />
       <ComponenteComState />
+      <ComponenteComUseEffect />
     </div>
   );
 }
