@@ -8,6 +8,7 @@ import ComponenteComMap from "@/components/ComponenteComMap";
 import ComponenteComEventos from "@/components/ComponenteComEventos";
 import ComponenteComState from "@/components/ComponenteComState";
 import ComponenteComUseEffect from "@/components/ComponenteComUseEffect";
+import ComponenteComFormik from "@/components/ComponenteComFormik";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ justify-center"
       <ComponenteComEventos />
       <ComponenteComState />
       <ComponenteComUseEffect />
+      <ComponenteComFormik />
     </div>
   );
 }
