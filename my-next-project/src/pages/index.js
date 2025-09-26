@@ -6,6 +6,7 @@ import ComponenteComVariasProps from "@/components/ComponenteComVariasProps";
 import ComponenteComCondicional from "@/components/ComponenteComCondicional";
 import ComponenteComMap from "@/components/ComponenteComMap";
 import ComponenteComEventos from "@/components/ComponenteComEventos";
+import ComponenteComState from "@/components/ComponenteComState";
 
 export default function Home() {
   return (
@@ -19,13 +20,14 @@ justify-center"
       <ComponenteComUmaProp nome="Arabella" />
       <ComponenteComVariasProps
         titulo="Perfil do Utilizador"
-        cor = "green"
+        cor="green"
         nome="Maria Neto"
         idade={25}
       />
       <ComponenteComCondicional />
       <ComponenteComMap />
       <ComponenteComEventos />
+      <ComponenteComState />
     </div>
   );
 }
