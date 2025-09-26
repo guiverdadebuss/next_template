@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import PrimeiroComponente from "@/components/PrimeiroComponente";
 import ComponenteComUmaProp from "@/components/ComponenteComUmaProp";
 import ComponenteComVariasProps from "@/components/ComponenteComVariasProps";
+import ComponenteComCondicional from "@/components/ComponenteComCondicional";
+import ComponenteComMap from "@/components/ComponenteComMap";
 
 export default function Home() {
   return (
@@ -19,10 +21,9 @@ justify-center"
         cor = "green"
         nome="Maria Neto"
         idade={25}
-
-
-        
       />
+      <ComponenteComCondicional />
+      <ComponenteComMap />
     </div>
   );
 }
